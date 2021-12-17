@@ -8,16 +8,16 @@ Gem::Specification.new do |spec|
   spec.authors = ['Peter Berkenbosch']
   spec.email = 'info@peterberkenbosch.nl'
 
-  spec.summary = 'TODO: Write a short summary, because RubyGems requires one.'
-  spec.description = 'TODO: Write a longer description or delete this line.'
-  spec.homepage = 'https://github.com/solidusio-contrib/solidus_tailwind_frontend#readme'
+  spec.summary = 'Simple tailwindcss frontend engine for Solidus'
+  spec.description = spec.summary
+  spec.homepage = 'https://github.com/peterberkenbosch/solidus_tailwind_frontend#readme'
   spec.license = 'BSD-3-Clause'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/solidusio-contrib/solidus_tailwind_frontend'
   spec.metadata['changelog_uri'] = 'https://github.com/solidusio-contrib/solidus_tailwind_frontend/blob/master/CHANGELOG.md'
 
-  spec.required_ruby_version = Gem::Requirement.new('~> 2.5')
+  spec.required_ruby_version = Gem::Requirement.new('> 2.5')
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
